@@ -1,0 +1,25 @@
+{
+  "name": "disk-hog",
+  "version": "0.1.0",
+  "description": "Zero-dependency disk usage analyzer: npx disk-hog <path> -> interactive self-contained HTML treemap showing what is eating your space.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": { "disk-hog": "./bin/disk-hog.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "disk-usage",
+    "treemap",
+    "du",
+    "disk-space",
+    "windirstat",
+    "storage",
+    "cli",
+    "local-first",
+    "zero-dependency"
+  ],
+  "author": "trenysx",
+  "license": "Apache-2.0",
+  "engines": { "node": ">18.0.0" }
+}
